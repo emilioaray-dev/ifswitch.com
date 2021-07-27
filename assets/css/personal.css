@@ -1,0 +1,8 @@
+@media only screen and (max-width: 576px) {
+  .bloqueo-movil {
+    display: none !important;
+  }
+  .top-50pc {
+    top: 3% !important;
+  }
+}
