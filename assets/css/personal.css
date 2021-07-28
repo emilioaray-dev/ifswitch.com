@@ -6,3 +6,7 @@
     top: 3% !important;
   }
 }
+
+.degradado {
+  background: linear-gradient(180deg, rgba(90, 79, 207, 0.3) 0%, rgba(33, 203, 227, 0.3) 88%);
+}
