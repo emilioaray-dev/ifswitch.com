@@ -8,6 +8,9 @@
   .bondades {
     margin-top: 1rem;
   }
+  .padcompatibilidad {
+    padding: 1rem !important;
+  }
 }
 
 .degradado {
