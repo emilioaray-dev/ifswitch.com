@@ -11,6 +11,10 @@
   .padcompatibilidad {
     padding: 1rem !important;
   }
+  .widthresponsive {
+    width: 50% !important;
+    margin-top: 1rem;
+  }
 }
 
 .degradado {
@@ -37,4 +41,9 @@
 
 .colorpgris {
   color: #757575;
+}
+
+.widthresponsive {
+  width: 20%;
+  margin-top: 1rem;
 }
