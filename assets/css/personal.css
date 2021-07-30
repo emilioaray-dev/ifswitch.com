@@ -44,7 +44,7 @@
     rgb(0 0 0) 133%
   );
   padding: 5rem !important;
-  margin: -7rem;
+  margin: -7rem -5rem -7rem -7rem;
 }
 
 .zinicial {
@@ -58,4 +58,12 @@
 .widthresponsive {
   width: 20%;
   margin-top: 1rem;
+}
+
+.min-h-86vh {
+  min-height: 86vh !important;
+}
+
+.separacionbuttom {
+  padding-bottom: 2rem;
 }
