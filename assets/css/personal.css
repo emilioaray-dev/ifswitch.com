@@ -2,9 +2,7 @@
   .bloqueo-movil {
     display: none !important;
   }
-  .top-50pc {
-    top: 1.2rem !important;
-  }
+
   .bondades {
     margin-top: 1rem;
   }
@@ -14,6 +12,15 @@
   .widthresponsive {
     width: 50% !important;
     margin-top: 1rem;
+  }
+  .degradado2 {
+    margin: -7rem -2.3rem -7rem -7rem !important;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .top-50pc {
+    top: 1.2rem !important;
   }
 }
 
