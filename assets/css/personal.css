@@ -72,23 +72,44 @@
   display: grid;
   grid-template-columns: 50% 50%;
   align-content: center;
-  margin-top: -4rem;
+  margin-top: -6.9rem;
+  align-items: center;
+  margin-left: 1rem;
 }
 
 .autobomba {
   justify-self: center;
-  margin-top: -4rem;
 }
 
 @media only screen and (max-width: 765px) {
   .autobombapadre {
     display: grid;
     grid-template-columns: 100%;
+    grid-template-rows: 31% 50%;
     align-content: center;
-    margin-top: -54px;
+    margin-top: -3.9rem;
+    margin-left: 0.5rem;
   }
   .autobomba {
     justify-self: center;
     margin-top: 0rem;
   }
+  .autoimg {
+    height: 21rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .autoimg {
+    height: 40rem;
+  }
+}
+
+.k4 {
+  max-width: 1920px;
+  display: grid;
+
+  grid-template-columns: 100%;
+  margin: 0 auto;
 }
