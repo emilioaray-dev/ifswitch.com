@@ -103,6 +103,13 @@
     height: 21rem;
     padding-top: 1.5rem;
   }
+
+  #t01 {
+    color: #cccccc;
+    width: -webkit-fill-available !important;
+    margin: 0 2rem !important;
+    margin-bottom: 5rem !important;
+  }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -122,4 +129,22 @@
 .blanco {
   opacity: 1;
   color: #cccccc;
+}
+
+#t01 th {
+  background-color: rgba(240, 238, 255, 0.1);
+  color: white;
+}
+
+#t01 {
+  color: #cccccc;
+  width: 50%;
+  margin: 0 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+tr {
+  border-bottom: 1px solid #0e0e0e;
 }
