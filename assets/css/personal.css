@@ -81,6 +81,11 @@
   justify-self: center;
 }
 
+.bg-indigo-lightest-10p,
+.indigo-lightestp {
+  color: #f0eeff;
+}
+
 @media only screen and (max-width: 765px) {
   .autobombapadre {
     display: grid;
@@ -112,4 +117,9 @@
 
   grid-template-columns: 100%;
   margin: 0 auto;
+}
+
+.blanco {
+  opacity: 1;
+  color: #cccccc;
 }
