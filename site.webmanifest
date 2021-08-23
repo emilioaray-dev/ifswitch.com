@@ -1,0 +1,15 @@
+{
+    "name": "ifswitch",
+    "short_name": "ifswitch",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#5a46cf",
+    "background_color": "#5a46cf",
+    "start_url": "https://www.ifswitch.com/",
+    "display": "standalone"
+}
