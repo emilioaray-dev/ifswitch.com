@@ -101,7 +101,7 @@
   }
   .autoimg {
     height: 21rem;
-    padding-top: 1.5rem;
+    margin-top: -1rem;
   }
 
   #t01 {
@@ -147,4 +147,8 @@
 
 tr {
   border-bottom: 1px solid #0e0e0e;
+}
+
+.point {
+  padding: 0.5rem 1rem !important;
 }
