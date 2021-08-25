@@ -155,10 +155,10 @@ tr {
 
 
 @media only screen  and (min-width: 766px) and (max-width: 1919px)  {
-
-  }
   .autoimg {
     height: 30rem;
-    margin-top: -1rem;
+    margin-top: -1rem;  }
+
   }
+  
 
