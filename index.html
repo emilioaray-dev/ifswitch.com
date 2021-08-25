@@ -67,7 +67,7 @@
     <link rel="mask-icon" href="https://www.ifswitch.com/favicon.svg">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    
+
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5a46cf">
     <meta name="msapplication-TileColor" content="#5a46cf">
@@ -119,7 +119,7 @@
             <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5 point">
 
                 <div class="inline-block bg-indigo indigo-lightest br-round px-3 py-1 mr-3 fs-s3"></div>
-                ¡Otórgale inteligencia a su bomba de agua!  
+                ¡Otórgale inteligencia a su bomba de agua!
             </div>
             <div>
                 <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Auto Bomba <br /></h1>
@@ -583,7 +583,12 @@
             </div>
         </div>
     </section>
+    <!-- Messenger plugin de chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
     <!-- footer -->
     <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
         <div class="flex flex-wrap">
@@ -639,12 +644,7 @@
                 </div>
             </div>
 
---><!-- Messenger plugin de chat Code -->
-<div id="fb-root"></div>
-
-<!-- Your plugin de chat code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+-->
 
 
             <div class="w-100pc md-w-25pc">
@@ -711,19 +711,19 @@
     var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "101110818964223");
     chatbox.setAttribute("attribution", "biz_inbox");
-  
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml            : true,
-        version          : 'v11.0'
-      });
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v11.0'
+        });
     };
-  
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-  </script>
+</script>
