@@ -639,7 +639,14 @@
                 </div>
             </div>
 
--->
+--><!-- Messenger plugin de chat Code -->
+<div id="fb-root"></div>
+
+<!-- Your plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+
             <div class="w-100pc md-w-25pc">
                 <div class="flex w-90pc md-w-100pc mx-auto md-items-center">
                     <form action="mailto:ifswitch.contacto@gmail.com" method="get" enctype="text/plain">
@@ -699,3 +706,24 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "101110818964223");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v11.0'
+      });
+    };
+  
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
